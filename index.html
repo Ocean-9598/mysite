@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Gallery</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="css/asg1.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Profile</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="Photos.html">Gallery</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Sagar Barvaliya</h3>
+    <img src="img/img1.png" class="img-responsive margin" style="display:inline" alt="Sagar" width="400" height="400">
+  <h3>802436431</h3>
+</div>
+
+<!-- Second Container -->
+<section>
+  <div class="text-left bg-2">
+    <div class="container">
+      <div class="about-section row">
+        <div class="col-lg-4 d-none d-md-block over"> <img src="img/tech.jpg" class="rounded over" style="display:inline" alt="Sagar" width="350" height="500"></div>
+        <div class="col-lg-8">
+          <h1>Technical Experience</h1>
+            <ul>
+              <li>App Languages: Java, Python, C, C++, Cloud, R</li>
+              <li>Web Languages: HTML, CSS, JavaScript, PHP, jQuery, Node JS, React JS, dotNet</li>
+              <li>Databases: mySql, Oracle, MongoDB</li>
+              <li>Servers: XAMPP, WAMPP, File Zilla</li>
+              <li>Editors: Atom, VSCode, Xcode, Anaconda, Jupyter, Spyder, Pycharm, RStudio, Android Studio</li>
+              <li>Frameworks: Laravel, Wordpress</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Third Container (Grid) -->
+<section>
+  <div class="text-left bg-3">
+    <div class="container">
+      <div class="about-section row">
+        <div class="col-lg-5 ofset-lg-1 over">
+          <h1>Hobbies</h1>
+            <ul>
+              <li>Cricket</li>
+              <li>Soccer</li>
+              <li>Swimming</li>
+              <li>Travelling</li>
+            </ul>
+        </div>
+        <div class="col-lg-6 d-none d-md-block"> <img src="img/hobbies.jpg" class="rounded" style="display:inline" alt="Sagar" width="380" height="400"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Fourth Container (Grid) -->
+<div class="container-fluid bg-4 text-center">    
+  <h3 class="margin">Where To Find Me?</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p class="font-weight-bold">Joliet, IL, USA</p>
+      <img src="img/home.png" class="img-responsive margin rounded" style="display:inline" alt="Sagar" width="230" height="230">
+    </div>
+    <div class="col-sm-4"> 
+      <p class="font-weight-bold">+1 (987) 654 3210</p>
+      <img src="img/phone.png" class="img-responsive margin rounded" style="display:inline" alt="Sagar" width="300" height="300">
+    </div>
+    <div class="col-sm-4"> 
+      <p class="font-weight-bold">sbarval@ilstu.edu</p>
+      <img src="img/mail.png" class="img-responsive margin rounded" style="display:inline" alt="Sagar" width="380" height="380">
+    </div>
+  </div>
+</div>
+
+<!-- Cards that is hidden on smaller device -->
+<div class="card bg-2 .d-none .d-sm-block" style="width: 18rem;">
+  <div class="card-body center">
+    <h1 class="card-title">University</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Illinois State University</h6>
+    <p class="card-text">ISU was founded in 1857</p>
+    <a href="https://illinoisstate.edu/" class="card-link">Campus link</a>
+    <a href="https://traditions.illinoisstate.edu/isnu/" class="card-link">Traditions</a>
+  </div>
+</div>
+
+
+<hr>
+
+<!-- Footer -->
+<footer class="bg-2"> 
+      Sagar, Copyright @ 2021 Assignment 01 - Share your profile
+      <br>
+      <script language="Javascript">
+        document.write("Last update: " + document.lastModified);
+      </script>
+</footer>
+
+</body>
+</html>
